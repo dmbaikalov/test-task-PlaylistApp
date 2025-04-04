@@ -34,5 +34,12 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.8.2"
   },
-  "json.schemas": []
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "package.json"
+      ],
+      "url": "https://json.schemastore.org/package"
+    }
+  ]
 }

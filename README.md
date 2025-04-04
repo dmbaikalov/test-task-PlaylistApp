@@ -18,25 +18,13 @@
 - Run all tests in headless mode:
 
   ```
-  npm test
+  npm run test
   ```
 
 - Run tests in headed mode (visible browser):
 
   ```
   npm run test:headed
-  ```
-
-- Run tests with debug:
-
-  ```
-  npm run test:debug
-  ```
-
-- Generate HTML test report:
-
-  ```
-  npm run test:report
   ```
 
 ## Linting and Formatting
