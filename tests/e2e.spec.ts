@@ -1,8 +1,6 @@
 import { test } from '../fixtures/fixtures';
 import { trackNames as tracks } from '../testdata/test.data';
 
-// I made some mistake, so the tests don't work, I'm working on it
-
 test.describe.parallel('Playlist App Tests', () => {
   test('Search Functionality', async ({ app }) => {
     await app.playlistpage.open();

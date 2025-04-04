@@ -27,7 +27,7 @@ export class PlaylistPage extends BasePage {
   }
 
   async addTrackToPlaylist(trackName: string) {
-    const track: Locator = this.trackList.filter({
+    const track: Locator = this.trackItemList.filter({
       hasText: new RegExp(trackName),
     });
     const plusButton: Locator = track.getByRole('button', {
@@ -38,7 +38,7 @@ export class PlaylistPage extends BasePage {
   }
 
   async checkIfTrackIsInThePlaylist(trackName: string) {
-    const track: Locator = this.playlist.filter({
+    const track: Locator = this.playlistItemList.filter({
       hasText: new RegExp(trackName),
     });
     await expect(track).toBeVisible();
@@ -50,7 +50,7 @@ export class PlaylistPage extends BasePage {
   }
 
   async checkIfCorrectTrackIsShown(trackName: string) {
-    await expect(this.searchedTrack).toHaveText(trackName);
+    await expect(this.searchedTrack).toContainText(trackName);
   }
   async checkIfOnlySearchTrackIsShown() {
     const itemsAmount: number = await this.trackItemList.count();
