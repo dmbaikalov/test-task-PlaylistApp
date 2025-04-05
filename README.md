@@ -1,14 +1,10 @@
 # test-task-PlaylistApp
 
-## Prerequisites
-
-- Node.js (v18 or higher recommended)
-- npm (comes with Node.js)
-
 ## Setup
 
 1. Clone this repository
-2. Install dependencies:
+   ```bash git clone https://github.com/dmbaikalov/test-task-PlaylistApp.git```
+3. Install dependencies:
    ```bash
    npm install
    ```
