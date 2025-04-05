@@ -19,7 +19,7 @@
   npm run test
   ```
 
-- Run tests in headed mode (visible browser):
+- Run tests in headed mode:
 
   ```
   npm run test:headed
