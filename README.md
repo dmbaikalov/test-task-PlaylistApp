@@ -3,7 +3,9 @@
 ## Setup
 
 1. Clone this repository
-   ```bash git clone https://github.com/dmbaikalov/test-task-PlaylistApp.git```
+   ```bash
+   git clone https://github.com/dmbaikalov/test-task-PlaylistApp.git
+   ```
 3. Install dependencies:
    ```bash
    npm install
